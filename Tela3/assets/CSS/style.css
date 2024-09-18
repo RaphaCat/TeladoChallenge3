@@ -1,0 +1,80 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c70202; /* Cor de fundo opcional */
+    position: relative; /* Necessário para posicionamento absoluto dos ícones */
+    height: 75px;
+}
+
+.header .logo {
+    flex: 1;
+    text-align: center;
+}
+
+.header .logo img {
+    max-width: 150px;
+}
+
+.header .icon-menu,
+.header .icon-search {
+    font-size: 34px; /* Tamanho dos ícones ajustado */
+}
+
+.header .icon-menu {
+    position: absolute;
+    left: 20px;
+}
+
+.header .icon-search {
+    position: absolute;
+    right: 20px;
+}
+
+/* Centralizar o título e ajustar o tamanho */
+.title-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-container h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Estilizando as colunas */
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    margin: 10px;
+}
+
+/* Estilizando os títulos dentro das colunas */
+.column h3 {
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 18px; /* Ajusta o tamanho da fonte, se necessário */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+/* Estilizando o restante do texto nas colunas */
+.column ul {
+    margin-bottom: 10px; /* Espaço abaixo dos itens da lista */
+    font-weight: bold;
+    font-size: 16px; /* Ajustado para legibilidade */
+    padding-left: 20px; /* Adiciona um recuo à esquerda */
+}
+
+/* Quebrar as colunas em telas menores */
+@media (max-width: 768px) {
+    .columns-container {
+        flex-direction: column;
+    }
+}
