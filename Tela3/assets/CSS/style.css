@@ -58,7 +58,7 @@
 }
 
 /* Estilizando os títulos dentro das colunas */
-.column h4 {
+.column h3 {
     font-weight: bold; /* Deixa o texto em negrito */
     font-size: 18px; /* Ajusta o tamanho da fonte, se necessário */
     margin-bottom: 10px; /* Espaço abaixo do título */
@@ -67,6 +67,8 @@
 /* Estilizando o restante do texto nas colunas */
 .column ul {
     margin-bottom: 10px; /* Espaço abaixo dos parágrafos */
+    font-weight: bold;
+    font-size: 10px;
 }
 
 /* Quebrar as colunas em telas menores */
