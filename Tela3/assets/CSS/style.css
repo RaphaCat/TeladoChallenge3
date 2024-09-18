@@ -69,7 +69,6 @@
     margin-bottom: 10px; /* Espaço abaixo dos itens da lista */
     font-weight: bold;
     font-size: 16px; /* Ajustado para legibilidade */
-    list-style-type: disc; /* Adiciona marcadores às listas */
     padding-left: 20px; /* Adiciona um recuo à esquerda */
 }
 
