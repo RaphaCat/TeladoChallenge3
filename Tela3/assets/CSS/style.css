@@ -66,9 +66,11 @@
 
 /* Estilizando o restante do texto nas colunas */
 .column ul {
-    margin-bottom: 10px; /* Espaço abaixo dos parágrafos */
+    margin-bottom: 10px; /* Espaço abaixo dos itens da lista */
     font-weight: bold;
-    font-size: 10px;
+    font-size: 16px; /* Ajustado para legibilidade */
+    list-style-type: disc; /* Adiciona marcadores às listas */
+    padding-left: 20px; /* Adiciona um recuo à esquerda */
 }
 
 /* Quebrar as colunas em telas menores */
